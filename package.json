@@ -1,0 +1,18 @@
+{
+  "name": "webpack-codesplit-test",
+  "version": "0.0.1",
+  "description": "Testing Webpack code splitting and code sharing capabilities among chunks",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npm install --include-dev && npx webpack && node ./dist/main.js"
+  },
+  "author": {
+    "name": "Andrea Salvi",
+    "email": "tudhalyas@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
